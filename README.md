@@ -1,5 +1,5 @@
 # angular_library_test
-Trying out creating an Angular library 
+Trying out creating an Angular library  + Docker
 
 
 ## Tips
