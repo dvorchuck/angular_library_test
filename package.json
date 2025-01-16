@@ -10,7 +10,7 @@
     "image:dev":"podman build -t angular-docker-dev:latest --label angular-docker-dev .",
     "image:prod":"podman build -f Containerfile_production -t angular-docker:latest --label angular-docker .",
     "container:dev":"podman run --rm -p 4200:4200 --name angular-docker-dev angular-docker-dev",
-    "container:prod":"podman run --rm -p 4200:4200 --name angular-docker angular-docker"
+    "container:prod":"podman run --rm -p 4200:80 --name angular-docker angular-docker"
   },
   "private": true,
   "dependencies": {
